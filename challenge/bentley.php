@@ -73,10 +73,10 @@
 <div class="container d-flex justify-content-center">
   <div class="card mb-3" style="max-width: 100%;">
   <div class="row g-0">
-    <div class="col-md-8">
-      <img src="<?php echo ($cars["Car4"]["image"]);?>" alt="...">
-    </div>
     <div class="col-md-4">
+      <img id="silverfox" src="<?php echo ($cars["Car4"]["image"]);?>" alt="...">
+    </div>
+    <div class="col-md-8">
       <div class="card-body">
         <h5 class="card-title text-light fs-5"><?php echo ($cars["Car4"]["Branch"]);?> <?php echo ($cars["Car4"]["Model"]);?> </h5>
         <p class="card-text text-light fs-5">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>

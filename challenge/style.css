@@ -1,3 +1,10 @@
 .card-body {
     background-color: rgba(0, 0, 0, 0.637);
 }
+
+#silverfox {
+    width: 100%;
+    min-height: auto;
+    object-fit: cover;
+    object-position: center center;
+}
